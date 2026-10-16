@@ -30,3 +30,5 @@ add_executable(test_integration tests/test_integration.cpp)
 target_link_libraries(test_integration PRIVATE arraylib)
 add_test(NAME IntegrationTests COMMAND test_integration)
 
+add_executable(variant_07 examples/variant_07.cpp)
+target_link_libraries(variant_07 PRIVATE arraylib)
